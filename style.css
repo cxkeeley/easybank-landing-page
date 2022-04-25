@@ -43,23 +43,29 @@ body {
   box-sizing: border-box;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 .header__container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.hero__navlinks {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
+.hero__navlinks ul li {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
