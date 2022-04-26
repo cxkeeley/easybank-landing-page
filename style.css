@@ -21,6 +21,7 @@
 
 - Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
 - Weights: 300, 400, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 
 :root {
   /* ### Primary */
@@ -41,6 +42,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .header__container {
@@ -51,11 +53,21 @@ body {
 
 .hero__navlinks ul li {
   display: inline-block;
+  padding: 0.8rem 0.8rem;
 }
 
+.hero__navlinks ul li a {
+  text-decoration: none;
+  color: var(--grayish-blue);
+}
 
-
-
+.hero-btn {
+  padding: 0.8rem 1.8rem;
+  border-radius: 3rem;
+  border: none;
+  background-color: var(--lime-green);
+  color: var(--white);
+}
 
 
 
