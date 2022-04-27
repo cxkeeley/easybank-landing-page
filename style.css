@@ -32,6 +32,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0 auto;
 }
 
 .hero__navlinks ul li {
@@ -48,14 +49,33 @@ header {
   padding: 0.8rem 1.8rem;
   border-radius: 3rem;
   border: none;
-  background-color: var(--lime-green);
+  font-weight: 700;
+  background: rgb(47,209,106);
+  background: linear-gradient(90deg, rgba(47,209,106,1) 0%, rgba(43,185,209,1) 100%);
   color: var(--white);
 }
 
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.hero__img {
+  display: flex;
+}
 
+.background-img-svg {
+  display: relative;
+  width: 100%;
+  z-index: 0;
+}
 
-
+.mockup-img {
+  display: relative;
+  width: 100%;
+  z-index: 999;
+}
 
 .attribution {
   font-size: 11px;
