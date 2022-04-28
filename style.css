@@ -66,17 +66,17 @@ header {
 }
 
 .background-img-svg {
-  display: relative;
+  display: absolute;
   width: 100%;
+  height: 100%;
   z-index: 1;
 }
 
 .mockup-img {
   display: absolute;
-  top: 0;
-  left: 50%;
 
   width: 100%;
+  height: 100%;
   z-index: 999;
 }
 
