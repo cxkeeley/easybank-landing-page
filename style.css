@@ -68,11 +68,14 @@ header {
 .background-img-svg {
   display: relative;
   width: 100%;
-  z-index: 0;
+  z-index: 1;
 }
 
 .mockup-img {
-  display: relative;
+  display: absolute;
+  top: 0;
+  left: 50%;
+
   width: 100%;
   z-index: 999;
 }
