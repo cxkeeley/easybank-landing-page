@@ -63,10 +63,12 @@ header {
 
 .hero__img {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .background-img-svg {
-  display: absolute;
+  display: relative;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -74,7 +76,6 @@ header {
 
 .mockup-img {
   display: absolute;
-
   width: 100%;
   height: 100%;
   z-index: 999;
