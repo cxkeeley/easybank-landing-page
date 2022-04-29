@@ -15,10 +15,13 @@
   --white: hsl(0, 0%, 100%);
 }
 
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   font-family: 'Public Sans', sans-serif;
   font-size: 18px;
 }
@@ -68,14 +71,16 @@ header {
 }
 
 .background-img-svg {
-  display: relative;
-  width: 100%;
-  height: 100%;
+  position: relative;
+  width: 50%;
+  height: 50%;
   z-index: 1;
 }
 
 .mockup-img {
-  display: absolute;
+  position: absolute;
+  top: 15%;
+  left: 50%;
   width: 100%;
   height: 100%;
   z-index: 999;
