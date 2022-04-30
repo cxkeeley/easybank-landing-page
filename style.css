@@ -62,18 +62,21 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  border: 1px solid black;
 }
 
 .hero__img {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
 
 .background-img-svg {
   position: relative;
-  width: 50%;
-  height: 50%;
+  width: 100%;
   z-index: 1;
 }
 
@@ -84,6 +87,11 @@ header {
   width: 100%;
   height: 100%;
   z-index: 999;
+}
+
+.hero__info {
+  flex: 1;
+  border: 1px solid black;
 }
 
 .attribution {
