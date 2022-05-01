@@ -28,7 +28,6 @@ body {
 
 header {
   width: 100%;
-  min-height: 100vh;
 }
 
 .header__container {
@@ -58,13 +57,18 @@ header {
   color: var(--white);
 }
 
+main {
+  width: 100%;
+  min-height: 100vh;
+}
+
 .hero__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid blue;
 }
 
 .hero__img {
@@ -72,6 +76,10 @@ header {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+  background-image: url(./images/bg-intro-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .background-img-svg {
@@ -81,9 +89,7 @@ header {
 }
 
 .mockup-img {
-  position: absolute;
-  top: 15%;
-  left: 50%;
+  position: relative;
   width: 100%;
   height: 100%;
   z-index: 999;
