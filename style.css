@@ -15,13 +15,14 @@
   --white: hsl(0, 0%, 100%);
 }
 
-*, ::before, ::after {
+*, *::before, *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 body {
-  padding: 0;
-  margin: 0;
   font-family: 'Public Sans', sans-serif;
   font-size: 18px;
 }
@@ -72,9 +73,7 @@ main {
 }
 
 .hero__img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex: 1;
   border: 1px solid black;
   background-image: url(./images/bg-intro-desktop.svg);
   background-size: cover;
@@ -97,6 +96,7 @@ main {
 
 .hero__info {
   flex: 1;
+  padding: 3rem;
   border: 1px solid black;
 }
 
