@@ -11,7 +11,7 @@
 
   --grayish-blue: hsl(233, 8%, 62%);
   --light-grayish-blue: hsl(220, 16%, 96%);
-  --very-light-gray: hsl(0, 0%, 98%);
+  --very-light-gray: hsl(0, 30%, 12%);
   --white: hsl(0, 0%, 100%);
 }
 
@@ -95,9 +95,21 @@ main {
 }
 
 .hero__info {
-  flex: 1;
+  flex: 0.7;
   padding: 3rem;
+  margin: 4rem;
   border: 1px solid black;
+}
+
+.hero__info h1 {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+
+.hero__info p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
 }
 
 .attribution {
