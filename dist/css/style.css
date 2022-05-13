@@ -28,7 +28,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 auto;
+  margin: 1.5rem 6rem;
 }
 
 .hero__navlinks ul li {
