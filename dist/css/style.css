@@ -11,11 +11,12 @@
 body {
   font-family: "Public Sans", sans-serif;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 header {
   width: 100%;
-  height: 6rem;
+  height: 4.5rem;
   padding: 0.1rem 0;
   background: white;
   position: relative;
@@ -26,13 +27,14 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 1.5rem auto;
+  margin: 0.7rem auto;
   background: white;
   position: relative;
   z-index: 10;
@@ -61,11 +63,12 @@ header {
 
 main {
   width: 100%;
-  min-height: 10git 0vh;
+  min-height: 100vh;
 }
 
 .hero {
   width: 80%;
+  min-height: 100vh;
   margin: 0 auto;
 }
 
@@ -80,21 +83,20 @@ main {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  border: 1px solid blue;
+  min-height: 100vh;
 }
 
 .hero__img {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  border: 1px solid black;
   position: relative;
 }
 
 .bg-intro-desktop {
   display: block;
   position: absolute;
-  margin-top: -39rem;
+  margin-top: -40rem;
   margin-left: 1rem;
   z-index: 0;
 }
@@ -103,16 +105,15 @@ main {
   display: block;
   position: absolute;
   top: 0;
-  margin-top: -30.5rem;
-  margin-left: 13rem;
+  margin-top: -31.5rem;
+  margin-left: 14rem;
 }
 
 .hero__info {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  padding: 1rem;
-  border: 1px solid black;
+  -webkit-box-flex: 0.7;
+      -ms-flex: 0.7;
+          flex: 0.7;
+  padding: 0.3rem;
 }
 
 .hero__info h1 {
