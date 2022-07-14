@@ -1,0 +1,160 @@
+.footer {
+    padding-top: 2.5rem;
+    padding-bottom: 1.75rem;
+    background-color: $dark-blue;
+    text-align: center;
+
+    .btn {
+        margin-bottom: 1.75rem;
+
+        &:hover,
+        &:focus {
+            opacity: 1;
+            filter: brightness(1.1);
+        }
+    }
+}
+
+.footer__logo {
+    margin-bottom: 0.75rem;
+
+    img {
+        width: 139px;
+        height: 20px;
+    }
+}
+
+.footer__links,
+.social {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.footer__links {
+    max-width: 327px;
+    margin: 0 auto 1.5rem;
+
+    a {
+        font-size: 0.875rem;
+        line-height: 1.6;
+        color: $white;
+        display: inline-block;
+        padding: 0.375rem 0;
+        text-decoration: none;
+        transition: color 0.15s;
+
+        &:hover,
+        &:focus {
+            color: $lime-green;
+        }
+    }
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 1rem;
+
+    a {
+        display: flex;
+        padding: 0.75rem;
+        color: $white;
+        transition: color 0.15s;
+
+        &:hover,
+        &:focus {
+            color: $lime-green;
+        }
+    }
+
+    svg {
+        transform: scale(1.2);
+    }
+}
+
+.footer__copyright {
+    font-size: 0.875rem;
+    color: $gray;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: none;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 992px) {
+    .footer {
+        padding-top: 2.875rem;
+        padding-bottom: 0;
+        text-align: left;
+        min-height: 190px;
+
+        .col {
+            flex-basis: 25%;
+            max-width: 25%;
+        }
+
+        .col-links {
+            flex: 1;
+            max-width: none;
+        }
+
+        .col-btn {
+            text-align: right;
+        }
+
+        .container {
+            position: relative;
+        }
+    }
+
+    .footer__row {
+        display: flex;
+    }
+
+    .footer__logo {
+        margin-bottom: 2.5rem;
+    }
+
+    .footer__links {
+        max-width: 365px;
+        margin-left: 0;
+        margin-right: 0;
+        columns: 2;
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            padding: 0;
+        }
+    }
+
+    .social {
+        justify-content: flex-start;
+        margin: 0 0 2.5rem -0.375rem;
+
+        a {
+            padding: 0.375rem;
+        }
+
+        svg {
+            transform: scale(1);
+        }
+    }
+
+    .footer__copyright {
+        font-size: 0.875rem;
+        position: absolute;
+        top: 70px;
+        right: 1.5rem;
+    }
+}

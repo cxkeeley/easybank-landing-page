@@ -1,0 +1,23 @@
+@media (min-width: 992px) {
+    .slide-right {
+        animation: .5s .25s slideright backwards ease-out;
+    }
+
+    .slide-left {
+        animation: .5s .25s slideleft backwards ease-out;
+    }
+}
+
+@keyframes slideright {
+    from {
+        transform: translate3d(2rem, 0, 0);
+        opacity: 0;
+    }
+}
+
+@keyframes slideleft {
+    from {
+        transform: translate3d(-2rem, 0, 0);
+        opacity: 0;
+    }
+}
