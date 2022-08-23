@@ -392,7 +392,7 @@ p {
 }
 
 .header__navbar {
-  height: 64px;
+  height: 63px;
   display: flex;
   align-items: center;
   position: relative;
